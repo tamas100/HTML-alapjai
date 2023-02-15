@@ -14,3 +14,9 @@ td {
 img {
     width: 200px;
 }
+
+.contact-form label {
+    display: block;
+    margin: 40px;
+    user-select: none;
+}

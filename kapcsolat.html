@@ -5,48 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kapcsolat</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html#szoveg">Szöveg</a>
-            <a href="index.html#kepek-multimedia">Képek és multimédia</a>
-            <a href="index.html#tablazatok">Táblázatok</a>
-            <a href="index.html">HTML alapjai</a>
+            <a href="./index.html#szoveg">Szöveg</a>
+            <a href="./index.html#kepek-multimedia">Képek és multimédia</a>
+            <a href="./index.html#tablazatok">Táblázatok</a>
+            <a href="./index.html">HTML alapjai</a>
         </nav>
     </header>
     <main>
         <h1>Kapcsolat</h1>
         <section>
             <h2>Írj nekünk!</h2>
-            <form action="https://formspree.io/f/meqwadlq" method="post">
-                <section>
-                    <label>
-                        Név:
-                        <input type="text" name="név" placeholder="Név">
-                    </label>
-                </section>
-                <section>
-                    <label>
-                        E-mail:
-                        <input type="email" name="E-mail" placeholder="E-mail">
-                    </label>
-                </section>
-                <section>
-                    <label>
-                        Üzenet:
-                        <textarea name="üzenet" cols="30" rows="10">Üzenet</textarea>
-                    </label>
-                </section>
-                <section>
-                    <label>
-                        Sürgős
-                        <input type="checkbox" name="Sürgős" value="no">
-                    </label>
-                </section>
-                <section>
-                    <input type="submit" value="submit">
-                </section>
+            <form action="https://formspree.io/f/meqwadlq" method="post" class="contact-form">                
+                <label>
+                    Név:
+                    <input type="text" name="név" placeholder="Név">
+                </label>                
+                <label>
+                    E-mail:
+                    <input type="email" name="E-mail" placeholder="E-mail">
+                </label>                
+                <label>
+                    Üzenet:
+                    <textarea name="üzenet">Üzenet</textarea>
+                </label>                
+                <label>
+                    Sürgős
+                    <input type="checkbox" name="is_Sürgős">
+                </label>                
+                <input type="submit" value="Üzenet küldése">
+                <input type="reset" value="Üzenet törlése">              
             </form>
         </section>
     </main>
